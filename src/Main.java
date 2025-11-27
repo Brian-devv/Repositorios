@@ -2,9 +2,16 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("instrucao numero 1");
-        System.out.println("instrucao numero 2");
-        System.out.println("instrucao numero 3");
-        System.out.println("instrucao numero 4");
+        int idade = 25;
+        double salarioMensal = 4500.00;
+        char genero = 'M';
+        boolean empregadoJava = true;
+
+        System.out.println("idade: " + idade);
+        System.out.println("Salário: " + salarioMensal);
+        System.out.println("Gênero: " + genero);
+        System.out.println("Empregado: " + empregadoJava);
+
+
     }
 }
