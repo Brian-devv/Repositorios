@@ -11,7 +11,12 @@ public class Main {
         System.out.println("Salário: " + salarioMensal);
         System.out.println("Gênero: " + genero);
         System.out.println("Empregado: " + empregadoJava);
-
-
+        boolean ativo = true;
+        if(!ativo){
+            System.out.println("Inativo");
+        }
+        else{
+            System.out.println("Ativo");
+        }
     }
 }
